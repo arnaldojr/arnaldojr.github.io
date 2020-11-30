@@ -1,5 +1,5 @@
 title: Alves Viana Junior, Arnaldo.
-logo: /assets/img/arnaldojr.jpeg
+#logo: /assets/img/arnaldojr.jpeg
 description: <small>nov 29, 2020</small>
 
 social-network-links:
@@ -12,4 +12,4 @@ social-network-links:
 
 show_downloads: false
 
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
