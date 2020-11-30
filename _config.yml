@@ -1,7 +1,14 @@
 title: Alves Viana Junior, Arnaldo.
 logo: /assets/img/arnaldojr.jpeg
 description: <small>nov 29, 2020</small>
-autor:
-  email: arnaldoavianajr@gmail.com
+
+social-network-links:
+  email: "arnaldoavianajr@gmail.com"
+  linkedin: arnaldo-alves-viana-junior-b3192334
+  github: arnaldojr
+  youtube: channel/UCb6MEkxngDA5E1XBs_zULgQ?view_as=subscriber
+  ORCID: 0000-0002-5563-8146
+
+
 show_downloads: false
 theme: jekyll-theme-minimal
