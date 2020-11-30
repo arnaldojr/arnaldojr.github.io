@@ -40,18 +40,18 @@
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}
-      </header>
+<!--      </header>
       <section>
-
+-->
       {{ content }}
       
-      {%- if site.social-network-links.email -%}
-      <p class="view">
-        <a href="mailto:{{ site.social-network-links.email }}" title="Email me">
-       </a>
-      </p>
-    {%- endif -%}      
-
+        {%- if site.social-network-links.email -%}
+        <p class="view">
+          <a href="mailto:{{ site.social-network-links.email }}" title="Email me">
+        </a>
+        </p>
+        {%- endif -%}      
+      </header>
       </section>
       <footer>
         {% if site.github.is_project_page %}
