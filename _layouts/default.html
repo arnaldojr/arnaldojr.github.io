@@ -23,7 +23,7 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         <p>{{ site.social-network-links.email | default: site.github.project_tagline }}</p>
-        <p>{{ site.social-network-links.linkedin | default: site.github.project_tagline }}</p>
+        <p>{{ site.social-network-links.email | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
@@ -44,10 +44,17 @@
       <section>
 
       {{ content }}
-      
-        {%- if site.social-network-links.email -%}
-        <p class="view"><a href="mailto:{{ site.social-network-links.email }}">Email me<strong>ZIP File</strong></a></p>
-        {%- endif -%}      
+      {%- if site.social-network-links.email -%}
+      <li class="list-inline-item">
+        <a href="mailto:{{ site.social-network-links.email }}" title="Email me">
+          <span class="fa-stack fa-lg" aria-hidden="true">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+          </span>
+          <span class="sr-only">Email me</span>
+       </a>
+      </li>
+    {%- endif -%}      
 
       </section>
       <footer>
